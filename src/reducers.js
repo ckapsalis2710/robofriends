@@ -25,6 +25,7 @@ const initialStateRobots = {
 	error: ''
 }
 
+// set deafult values to parameters
 export const requestRobots = (state=initialStateRobots, action={}) => {
 	switch (action.type) {
 		case REQUEST_ROBOTS_PENDING:
