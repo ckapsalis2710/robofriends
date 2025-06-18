@@ -19,7 +19,7 @@ clientsClaim();
 // Their URLs are injected into the manifest variable below.
 // This variable must be present somewhere in your service worker file,
 // even if you decide not to use precaching. See https://cra.link/PWA
-precacheAndRoute(self.__WB_MANIFEST);
+precacheAndRoute(self.__WB_MANIFEST || []);
 
 // Set up App Shell-style routing, so that all navigation requests
 // are fulfilled with your index.html shell. Learn more at
@@ -44,6 +44,12 @@ registerRoute(
     return true;
   },
   createHandlerBoundToURL(process.env.PUBLIC_URL + '/index.html')
+);
+
+// Cache HTML pages (e.g., for offline use)
+registerRoute(
+  ({ request }) => request.destination === 'document',
+  new StaleWhileRevalidate({ cacheName: 'html-cache' })
 );
 
 // An example runtime caching route for requests that aren't handled by the
