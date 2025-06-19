@@ -4,9 +4,15 @@
   "icons": [
     {
       "src": "robot_favicon.ico",
-      "sizes": "32x32",
+      "sizes": "48x48",
       "type": "image/x-icon",
       "purpose": "any"
+    },
+    {
+      "src": "robot_logo-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "maskable"
     },
     {
       "src": "robot_logo-192x192.png",
