@@ -3,6 +3,12 @@
   "short_name": "Robofriends",
   "icons": [
     {
+      "src": "robot_favicon.ico",
+      "sizes": "32x32",
+      "type": "image/x-icon",
+      "purpose": "any"
+    },
+    {
       "src": "robot_logo-192x192.png",
       "sizes": "192x192",
       "type": "image/png",
