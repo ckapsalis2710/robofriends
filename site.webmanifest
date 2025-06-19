@@ -27,6 +27,23 @@
       "purpose": "maskable"
     }
   ],
+  "screenshots": [
+    {
+      "src": "robot_logo-320x320.png",
+      "sizes": "320x320",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Robot Desktop",
+      "description": "Download the Robofriends app."
+    },
+    {
+      "src": "robot_logo-320x320.png",
+      "sizes": "320x320",
+      "type": "image/png",
+      "label": "Robot Mobile",
+      "description": "Download the Robofriends app."
+    }
+  ],
   "start_url": ".",
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
