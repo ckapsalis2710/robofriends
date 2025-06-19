@@ -9,9 +9,9 @@
       "purpose": "any"
     },
     {
-      "src": "robot_logo-144x144.png",
+      "src": "robot_logo-144x144.ico",
       "sizes": "144x144",
-      "type": "image/png",
+      "type": "image/x-icon",
       "purpose": "any"
     },
     {
