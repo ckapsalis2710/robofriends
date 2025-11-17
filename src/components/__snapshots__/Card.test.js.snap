@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card Component Test Suite Matches snapshot with Robot Data 1`] = `
+<div
+  class="tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5"
+  data-testid="robot-card"
+>
+  <img
+    alt="robot"
+    src="https://robohash.org/1?size=200x200"
+  />
+  <div>
+    <h2>
+      Monster Mind
+    </h2>
+    <p>
+      monster.mind@gmail.com
+    </p>
+  </div>
+</div>
+`;

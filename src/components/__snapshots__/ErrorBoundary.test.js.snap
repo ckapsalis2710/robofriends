@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorBoundary Component Test Suite Matches snapshot when CardList has error 1`] = `
+<DocumentFragment>
+  <div>
+    <h1>
+      Ooooops. This is not good
+    </h1>
+    <button>
+      Try Again
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`ErrorBoundary Component Test Suite Matches snapshot when CardList renders successfully 1`] = `
+<DocumentFragment>
+  <div
+    data-testid="card-list"
+  >
+    <div>
+      Test Robot
+    </div>
+  </div>
+</DocumentFragment>
+`;

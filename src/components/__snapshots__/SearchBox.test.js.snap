@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBox Component Test Suite Matches snapshot 1`] = `
+<div
+  class="pa2"
+>
+  <input
+    aria-label="Search Robots"
+    class="pa3 ba b--green bg-lightest-blue"
+    placeholder="search robots"
+    type="search"
+  />
+</div>
+`;

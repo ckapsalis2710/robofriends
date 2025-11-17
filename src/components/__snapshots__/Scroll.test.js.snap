@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Scroll Component Test Suite Matches snapshot with children 1`] = `
+<div
+  style="overflow-y: scroll; border: 1px solid white; height: 800px;"
+>
+  <div>
+    Test content
+  </div>
+</div>
+`;

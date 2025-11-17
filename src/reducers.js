@@ -7,7 +7,7 @@ import {
 
 const initialStateSearch = {
 	searchField: ''
-}
+};
 
 // set deafult values to parameters
 export const searchRobots = (state=initialStateSearch, action={}) => {
@@ -17,13 +17,13 @@ export const searchRobots = (state=initialStateSearch, action={}) => {
 		default:
 			return state;
 	}
-}
+};
 
 const initialStateRobots = {
 	isPending: false,
 	robots: [],
 	error: ''
-}
+};
 
 // set deafult values to parameters
 export const requestRobots = (state=initialStateRobots, action={}) => {
@@ -31,12 +31,11 @@ export const requestRobots = (state=initialStateRobots, action={}) => {
 		case REQUEST_ROBOTS_PENDING:
 			return Object.assign({}, state, {isPending: true});
 		case REQUEST_ROBOTS_SUCCESS:
-			return Object.assign({}, state, {robots: action.payload, isPending: false});
+			return Object.assign({}, state, {robots: action.payload, isPending: false, error: ''});
 		case REQUEST_ROBOTS_FAILED:
 			return Object.assign({}, state, {error: action.payload, isPending: false});
 		default:
 			return state;
 	}
-
-}
+};
 

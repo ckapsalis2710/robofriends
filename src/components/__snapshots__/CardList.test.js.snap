@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardList Test Suite Matches Snapshot with Robots array 1`] = `
+<div
+  data-testid="card-list-container"
+>
+  <div
+    class="tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5"
+    data-testid="robot-card"
+  >
+    <img
+      alt="robot"
+      src="https://robohash.org/5?size=200x200"
+    />
+    <div>
+      <h2>
+        Monster Mind
+      </h2>
+      <p>
+        monster.mind@gmail.com
+      </p>
+    </div>
+  </div>
+  <div
+    class="tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5"
+    data-testid="robot-card"
+  >
+    <img
+      alt="robot"
+      src="https://robohash.org/8?size=200x200"
+    />
+    <div>
+      <h2>
+        Dragon Mind
+      </h2>
+      <p>
+        dragon.mind@gmail.com
+      </p>
+    </div>
+  </div>
+  <div
+    class="tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5"
+    data-testid="robot-card"
+  >
+    <img
+      alt="robot"
+      src="https://robohash.org/9?size=200x200"
+    />
+    <div>
+      <h2>
+        Robot Master
+      </h2>
+      <p>
+        robot.master@gmail.com
+      </p>
+    </div>
+  </div>
+</div>
+`;
